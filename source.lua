@@ -59,6 +59,7 @@ function module:Tab(text)
 		elements = {}
 	}
 	self.info.current = text
+	return self
 end
 
 -- elements --
